@@ -1,0 +1,429 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navegador */
+.navbar {
+  background-color: #FF7B00;
+}
+
+.nav-link {
+  color: #00765E !important;
+  font-weight: bold;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li:hover {
+  background-color: #C08A00;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: rgb(104, 4, 87);
+  text-shadow: 0 0 25px #000;
+  background-image: url(../multi/fondo.jpg);
+  border: 5px solid #00765E;
+}
+
+h1 span {
+  color: #37022e;
+  text-shadow: 0 0 20px black;
+}
+
+h2 {
+  text-align: center;
+  background-color: #00765E;
+  padding: 10px;
+  margin: 0px;
+  border: 3px solid #248B00;
+  color: yellow;
+  text-shadow: 0 0 5px #000;
+}
+
+.prodfondo {
+  background-color: #C08A00;
+}
+
+.enlace, .tipoevento a, .producto a, .centrado .proddest a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #00765E;
+  font-weight: bold;
+  text-shadow: 0 0 20px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrado {
+  display: flex;
+  flex-direction: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.centrado .proddest {
+  margin: 10px;
+  border: 5px solid black;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.enam {
+  background-image: url(../multi/enam.jpg);
+}
+
+.num {
+  background-image: url(../multi/numero1369.jpg);
+}
+
+.diseño {
+  background-image: url(../multi/disenocumple.jpg);
+}
+
+article {
+  margin-top: 25px;
+  border: 2px solid #000000;
+  text-align: center;
+}
+
+.dato {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+h4 {
+  font-size: 14px;
+  text-align: center;
+}
+
+article i {
+  font-size: 20px;
+  align-items: end;
+}
+
+.fondoprop {
+  background-color: #248B00;
+}
+
+.propaganda {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0px;
+}
+
+p {
+  color: #C08A00;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 0 0 15px black;
+  text-align: center;
+}
+
+.celebra {
+  margin-bottom: 6px;
+  height: 200px;
+  width: 150px;
+}
+
+.categ {
+  background-color: rgb(211, 105, 67);
+  padding: 3px;
+  margin: 0px;
+  border: 2px solid rgb(139, 28, 28);
+}
+.categ h3 {
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 5px 5px 25px #248B00;
+  margin: 10px;
+}
+
+.distcat {
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 5px;
+  box-sizing: border-box;
+  border: 0px;
+  background-position: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+}
+
+.producto {
+  box-sizing: border-box;
+  background-color: red;
+  border: 4px solid red;
+  background-position: center;
+  background-size: 90%;
+  transition: all 0.9s;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 160px;
+  padding: 3px;
+}
+.producto:hover {
+  background-size: 115%;
+}
+
+.producto1 {
+  background-image: url(../multi/numeros.jpg);
+}
+
+.producto2 {
+  background-image: url(../multi/Letras.jpg);
+}
+
+.producto3 {
+  background-image: url(../multi/Globos.jpg);
+}
+
+.producto4 {
+  background-image: url(../multi/transparente.jpg);
+}
+
+.producto5 {
+  background-image: url(../multi/formaestrella.jpg);
+}
+
+.producto6 {
+  background-image: url(../multi/banderin.jpg);
+}
+
+.producto7 {
+  background-image: url(../multi/luces.jpg);
+}
+
+.producto8 {
+  background-image: url(../multi/borlas.jpg);
+}
+
+.producto9 {
+  background-image: url(../multi/velasnum.jpg);
+}
+
+.producto10 {
+  background-image: url(../multi/velassimpl.jpg);
+}
+
+.producto11 {
+  background-image: url(../multi/bengala.jpg);
+}
+
+.producto12 {
+  background-image: url(../multi/celebra15.png);
+}
+
+.producto13 {
+  background-image: url(../multi/celebraaniv.jpg);
+}
+
+.producto14 {
+  background-image: url(../multi/celebrabaut.jpg);
+}
+
+.tipoevento {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+.tipoevento .tamevento {
+  margin: 10px;
+  height: 170px;
+  width: 190px;
+  animation-name: eventaparece;
+  animation-duration: 8s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes eventaparece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.arco {
+  text-align: center;
+  background-image: url(../multi/Arco.jpg);
+  animation-delay: 4s;
+}
+
+.guirnalda {
+  text-align: center;
+  background-image: url(../multi/guirnalda.jpg);
+  animation-delay: 9s;
+}
+
+.columna {
+  text-align: center;
+  background-image: url(../multi/columna.jpg);
+  animation-delay: 4s;
+}
+
+.tuidea {
+  text-align: center;
+  background-image: url(../multi/idea.jpg);
+  animation-delay: 9s;
+}
+
+.texto {
+  color: yellow;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.degrade {
+  background: linear-gradient(#00765E, #248B00);
+  padding: 10px;
+  margin: 0px;
+  border: 0;
+}
+
+.fondofot, .fondovideo {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #00765E;
+  background-position: center;
+}
+
+.foto, .video {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 280px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.formulario {
+  border: 2px solid red;
+  background-color: #00765E;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario .text {
+  text-align: center;
+  margin-bottom: 10px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.formulario .text .coment {
+  display: block;
+}
+.formulario .botonder {
+  display: flex;
+  justify-content: flex-end;
+}
+.formulario .botonder .boton {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #FF7B00;
+  height: 50px;
+  width: 65px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mapa {
+  border: 0px;
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  justify-content: center;
+  background-position: center;
+  text-align: center;
+  background-color: #00765E;
+}
+.mapa .mapat {
+  color: #FF7B00;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 0 0 5px black;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+}
+footer .copy {
+  color: #C08A00;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+}
+footer a {
+  color: #248B00;
+  font-size: 25px;
+  letter-spacing: 15px;
+  text-decoration: none;
+}
+
+@media (min-width: 439px) and (max-width: 768px) {
+  .celebra {
+    margin-bottom: 6px;
+    height: 250px;
+    width: 230px;
+  }
+}
+@media (min-width: 769px) {
+  .celebra {
+    margin-bottom: 6px;
+    height: 250px;
+    width: 360px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .foto, .video {
+    height: auto;
+    width: 460px;
+  }
+}
+@media (min-width: 769px) {
+  .foto, .video {
+    height: auto;
+    width: 750px;
+  }
+}
+@media (min-widht: 1023px) {
+  .foto, .video {
+    height: auto;
+    width: 1000px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

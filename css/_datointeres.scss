@@ -1,0 +1,20 @@
+//Index-dato de interes
+article{
+    margin-top: 25px; 
+    border: 2px solid #000000;
+    text-align: center;
+}    
+.dato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+h4{
+    font-size: 14px;
+    text-align: center;
+}
+article i{
+    font-size: 20px;
+    align-items: end;
+}

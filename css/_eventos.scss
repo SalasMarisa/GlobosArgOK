@@ -1,0 +1,60 @@
+// Eventos
+.tipoevento{
+    display: flex;
+    flex-direction: center; 
+    justify-content: space-around;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+
+    .tamevento{
+        margin: 10px;
+        height: 170px;
+        width: 190px;
+        animation-name: eventaparece;
+        animation-duration: 8s;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+        }
+    @keyframes eventaparece {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    a{
+        @extend .enlace;
+    }
+}
+
+
+.arco{
+    text-align: center;
+    background-image: url(../multi/Arco.jpg);
+    animation-delay: 4s;
+}
+.guirnalda{
+    text-align: center;
+    background-image: url(../multi/guirnalda.jpg);
+    animation-delay: 9s;
+}
+.columna{
+    text-align: center;
+    background-image: url(../multi/columna.jpg);
+    animation-delay: 4s;
+}
+.tuidea{
+    text-align: center;
+    background-image: url(../multi/idea.jpg);
+    animation-delay: 9s
+}
+.fondovideo{
+    @extend .fondofot;
+}
+.video{
+    @extend .foto;
+}

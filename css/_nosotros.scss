@@ -1,0 +1,27 @@
+// Nosotros
+.texto{
+    @include font($color5, 20px, bolder);
+}
+.degrade{
+    background: linear-gradient($color2, $color3);
+    padding: 10px;
+    margin: 0px;
+    border: 0;
+}    
+.fondofot{
+    box-sizing: border-box; 
+    border: 0px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: $color2;
+    background-position: center;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+    margin: auto;
+}

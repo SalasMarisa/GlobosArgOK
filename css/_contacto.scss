@@ -1,0 +1,48 @@
+//contacto
+.formulario{
+    border: 2px solid $color6;
+    background-color: $color2;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        .text{
+        text-align: center;
+        margin-bottom: 10px;
+        @include font($color6, 20px, bold);
+
+            .coment{
+            display: block;
+            }
+    }
+    .botonder{
+    display: flex;
+    justify-content: flex-end;
+
+        .boton{
+            @include font($color6,18px, bold);
+            background-color:$color1;
+            height: 50px;
+            width: 65px;
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+}
+.mapa{
+    border: 0px;
+    padding: 10px;
+    margin:5px 0px;
+    border-radius: 10px;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+    background-color: $color2;
+
+    .mapat{
+        @include font($color1, 20px, bolder);
+        text-shadow: 0 0 5px black;
+    }
+}

@@ -1,0 +1,35 @@
+//mediaqueries
+//index- propaganda
+@media(min-width: 439px) and (max-width: 768px){
+    .celebra{
+        margin-bottom: 6px;
+        height: 250px;
+        width: 230px;
+    }
+}
+@media(min-width: 769px){
+    .celebra{
+        margin-bottom: 6px;
+        height: 250px;
+        width: 360px;
+    }
+}
+//nosotros
+@media(min-width: 480px) and (max-width: 768px){
+    .foto{
+        height: auto;
+        width: 460px;
+    }
+}
+@media(min-width: 769px){
+    .foto{
+        height: auto;
+        width: 750px;
+    }
+}
+@media(min-widht:1023px){
+    .foto{
+        height: auto;
+        width: 1000px;
+    }
+}

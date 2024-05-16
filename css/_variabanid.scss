@@ -1,0 +1,15 @@
+// colores
+$color1:#FF7B00;
+$color2: #00765E;
+$color3: #248B00;
+$color4:#C08A00;
+$color5: yellow;
+$color6: red;
+$color7:grey;
+$color8: rgb(104, 4, 87);
+
+@mixin font($color, $size, $weight){
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}

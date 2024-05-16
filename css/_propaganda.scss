@@ -1,0 +1,23 @@
+//Index - Propaganda
+.fondoprop{
+    background-color: $color3;
+}
+.propaganda{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+}
+p{
+    @include font($color4, 25px, bolder);
+    text-shadow: 0 0 15px black;
+    text-align: center;
+}
+.celebra{
+    margin-bottom: 6px;
+    height: 200px;
+    width: 150px;
+}

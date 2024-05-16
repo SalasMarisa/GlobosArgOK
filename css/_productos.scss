@@ -1,0 +1,87 @@
+//Productos
+.categ{
+    background-color: rgb(211, 105, 67);
+    padding: 3px;
+    margin: 0px;
+    border:2px solid rgb(139, 28, 28);
+
+    h3{
+        @include font($color5, 30px, bold);
+        text-shadow: 5px 5px 25px $color3;
+        margin: 10px;
+    }
+}
+.distcat{
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    box-sizing: border-box; 
+    border: 0px;
+    background-position: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-template-rows: auto;
+}
+.producto{
+    box-sizing: border-box;
+    background-color: $color6;
+    border: 4px solid $color6;
+    background-position: center;
+    background-size: 90%;
+    transition: all 0.9s;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 160px;
+    padding: 3px;
+
+    a{
+        @extend .enlace;
+    }
+}
+.producto:hover{
+    background-size: 115%;
+}
+.producto1{
+    background-image: url(../multi/numeros.jpg);
+}
+.producto2{
+    background-image: url(../multi/Letras.jpg);
+}
+.producto3{
+    background-image: url(../multi/Globos.jpg);
+}
+.producto4{
+    background-image: url(../multi/transparente.jpg);
+}
+.producto5{
+    background-image: url(../multi/formaestrella.jpg);
+}
+.producto6{
+    background-image: url(../multi/banderin.jpg);
+}
+.producto7{
+    background-image: url(../multi/luces.jpg);
+}
+.producto8{
+    background-image: url(../multi/borlas.jpg);
+}
+.producto9{
+    background-image: url(../multi/velasnum.jpg);
+}
+.producto10{
+    background-image: url(../multi/velassimpl.jpg);
+}
+.producto11{
+    background-image: url(../multi/bengala.jpg);
+}
+.producto12{
+    background-image: url(../multi/celebra15.png);
+}
+.producto13{
+    background-image: url(../multi/celebraaniv.jpg);
+}
+.producto14{
+    background-image: url(../multi/celebrabaut.jpg);
+}
