@@ -1,0 +1,6 @@
+1. Agregue etiquetas meta description y meta kewords
+2. Agregue nombre a los textos alternativos
+3. Titulos de cada pagina
+4. Optimizacion de imagenes
+5. Sitio responsivo
+6. Enlaces a redes sociales
